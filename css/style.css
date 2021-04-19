@@ -1,0 +1,68 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.banner-wrapper {
+  background-color: #8a8a8a;
+  padding-top: 220px;
+  padding-bottom: 220px;
+}
+
+.first-p {
+  font-size: 25px;
+  margin-left: 133px;
+}
+
+.second-p {
+  font-weight: bold;
+  font-size: 63px;
+  margin-top: -40px;
+  color: #333333;
+}
+
+.third-p::first-letter {
+  color: #00a99d;
+}
+
+.third-p {
+  background-color: #333333;
+  color: white;
+  margin-top: -25px;
+  max-width: 510px;
+  padding-left: 8px;
+}
+
+.fourth-p {
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.first-word {
+  color: #00a99d;
+  margin-right: 5px;
+}
+
+.icon {
+  color: #00a99d;
+  margin-left: 245px;
+}
+.icon svg {
+  width: 50px;
+  height: 50px;
+}
+
+header {
+  padding-top: 20px;
+}
+header img {
+  width: 160px;
+  height: 40px;
+}
+
+.row {
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

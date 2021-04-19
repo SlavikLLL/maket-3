@@ -1,0 +1,50 @@
+.banner-wrapper{
+    background-color:$main-color;
+    padding-top:220px;
+    padding-bottom: 220px;
+    
+}
+.first-p{
+    font-size:25px;
+    margin-left: 133px;
+}
+.second-p{
+    font-weight: bold;
+    font-size: 63px;
+    margin-top: -40px;
+    color:#333333;
+}
+.third-p::first-letter{
+    color:$main-font-color
+    
+}
+.third-p{
+    background-color: #333333;
+    color:white;
+    margin-top: -25px;
+    max-width: 510px;
+    padding-left: 8px;
+    
+
+}
+.fourth-p{
+    text-transform: uppercase;
+    color:#333333;
+    font-weight: bold;
+    font-size:18px;
+}
+.first-word{
+    color:$main-font-color;
+    margin-right: 5px;
+    
+}
+.icon{
+    color:$main-font-color;
+margin-left: 245px;
+   
+    svg{
+        width: 50px;
+        height: 50px;
+    }
+}
+
