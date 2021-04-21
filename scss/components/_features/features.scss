@@ -1,0 +1,47 @@
+.features{
+    padding-top:80px;
+    
+        .circle {
+            width: 110px;
+            height: 55px;
+            border: 2px;
+            border-radius: 50%;
+            position: relative;
+            background-color: $main-font-color;
+            margin-right: 15px;
+        svg{
+            width: 25px;
+            height: 25px;
+            color:white;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+        }
+    }
+    .features-text{
+        h3{
+            color:#606060;
+            text-transform: uppercase;
+            font-size:15px;
+
+        }
+        .features-text-info{
+            font-size:12px;
+            margin-top: -5px;
+            color:#bababa;
+        }
+        p{
+            margin-top: -5px;
+            color:#8b8b8b;
+            font-size:13px;
+        }
+    }
+}
+
+
+
+
+.upperRow{
+    padding-bottom: 55px;
+}

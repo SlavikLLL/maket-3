@@ -207,4 +207,45 @@ header img {
   margin-bottom: -38px;
 }
 
+.features {
+  padding-top: 80px;
+}
+.features .circle {
+  width: 110px;
+  height: 55px;
+  border: 2px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #00a99d;
+  margin-right: 15px;
+}
+.features .circle svg {
+  width: 25px;
+  height: 25px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.features .features-text h3 {
+  color: #606060;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.features .features-text .features-text-info {
+  font-size: 12px;
+  margin-top: -5px;
+  color: #bababa;
+}
+.features .features-text p {
+  margin-top: -5px;
+  color: #8b8b8b;
+  font-size: 13px;
+}
+
+.upperRow {
+  padding-bottom: 55px;
+}
+
 /*# sourceMappingURL=style.css.map */
