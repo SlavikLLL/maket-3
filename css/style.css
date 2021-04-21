@@ -1,9 +1,10 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
   font-family: "Raleway", sans-serif;
 }
 
-.container {
-  max-width: 900px;
+.colortext {
+  color: #00a99d;
 }
 
 .banner-wrapper {
@@ -39,10 +40,6 @@ body {
   font-weight: bold;
   font-size: 18px;
 }
-.banner-wrapper .row .first-word {
-  color: #00a99d;
-  margin-right: 5px;
-}
 .banner-wrapper .row .icon {
   color: #00a99d;
 }
@@ -52,6 +49,7 @@ body {
 }
 
 header {
+  border-bottom: 2px solid #dedede;
   padding-top: 20px;
 }
 header img {
@@ -61,6 +59,152 @@ header img {
 
 .row {
   align-items: center;
+}
+
+.sercices {
+  padding-top: 80px;
+}
+.sercices .title {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sercices .title-info {
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 15px;
+}
+.sercices .row {
+  padding-top: 50px;
+}
+.sercices svg {
+  width: 35px;
+  height: 35px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 2px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#circle-one {
+  background-color: #383838;
+}
+
+#circle-two {
+  background-color: #00a99d;
+}
+
+#circle-three {
+  background-color: #383838;
+}
+
+.sercices h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #9b9b9b;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.sercices p {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.button {
+  padding-top: 10px;
+  margin-left: 150px;
+}
+
+.info {
+  padding-top: 80px;
+  margin-top: 110px;
+  background-color: #383838;
+  position: relative;
+}
+.info .title-features h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+.info .title-features p {
+  font-size: 15px;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.icon-info {
+  padding-bottom: 55px;
+}
+.icon-info svg {
+  width: 45px;
+  height: 45px;
+  color: #00a99d;
+  margin-right: 25px;
+}
+
+.info-icon-text h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.info-icon-text p {
+  font-size: 12px;
+  color: #8a8a8a;
+  width: 70%;
+}
+
+.icon-info:last-child {
+  padding-bottom: 0;
+}
+
+.info::before, .info::after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.info::before {
+  background-color: #00a99d;
+  border-radius: 3px;
+  top: calc(-25px/2);
+  transform: rotate(45deg);
+}
+
+.info::after {
+  border-radius: 3px;
+  top: calc(-25px/2);
+  background-image: url(../img/svg/arrow-down-up.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.ipad-wrapper {
+  padding-top: 30px;
+}
+.ipad-wrapper .ipad img {
+  position: relative;
+  margin-bottom: -220px;
+  height: 348px;
+}
+.ipad-wrapper .ipad-reverse {
+  margin-bottom: -38px;
 }
 
 /*# sourceMappingURL=style.css.map */
