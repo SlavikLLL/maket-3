@@ -1,0 +1,179 @@
+.skills{
+    background-color: #383838;
+    padding-top:80px;
+    .title{
+        font-size:30px;
+        text-transform: uppercase;
+        text-align: center;
+        color:white;
+
+
+    }
+    .title-info{
+        text-align: center;
+        color:#585858;
+        font-size:15px;
+    }
+    .circle-bar{
+        padding-top:50px;
+        padding-bottom: 60px;
+        p{
+            font-size:14px;
+            color:#8a8a8a;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #ecf0f1;
+  color: #444;
+  font-family: 'Lato', Tahoma, Geneva, sans-serif;
+  font-size: 16px;
+  
+}
+
+.set-size {
+  font-size: 10em;
+}
+
+.charts-container {
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+.pie-wrapper {
+  @include size($default-size, $default-size);
+  float: left;
+  margin: 15px;
+  position: relative;
+  
+  &:nth-child(3n + 1) {
+    clear: both;
+  }
+
+  .pie {
+    @include size(100%, 100%);
+    clip: rect(0, $default-size, $default-size, $default-size / 2);
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    .half-circle {
+      @include size(100%, 100%);
+      border: ($default-size / 10) solid #00a99d;
+      border-radius: 50%;
+      clip: rect(0, $default-size / 2, $default-size, 0);
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  .label {
+    background: $bg-color;
+    border-radius: 50%;
+    bottom: $label-font-size-redo / 10;
+    color: #ecf0f1;
+    cursor: default;
+    display: block;
+    font-size: $label-font-size;
+    left: $label-font-size-redo / 10;
+    line-height: $label-font-size-redo * .70;
+    position: absolute;
+    right: $label-font-size-redo / 10;
+    text-align: center;
+    top: $label-font-size-redo / 10;
+
+    .smaller {
+      color: #bdc3c7;
+      font-size: .45em;
+      padding-bottom: 20px;
+      vertical-align: super;
+    }
+  }
+
+  .shadow {
+    @include size(100%, 100%);
+    border: $default-size / 10 solid #bdc3c7;
+    border-radius: 50%;
+  }
+
+  &.style-2 {
+    .label {
+      background: none;
+      color: #7f8c8d;
+
+      .smaller {
+        color: #bdc3c7;
+      }
+    }
+  }
+
+  &.progress-30 {
+    @include draw-progress(30, #00a99d);
+  }
+
+  &.progress-60 {
+    @include draw-progress(60, #9b59b6);
+  }
+
+  &.progress-90 {
+    @include draw-progress(90, #e67e22);
+  }
+
+  &.progress-45 {
+    @include draw-progress(45, #1abc9c);
+  }
+
+  &.progress-75 {
+    @include draw-progress(75, #8e44ad);
+  }
+
+  &.progress-95 {
+    @include draw-progress(95, #e74c3c);
+  }
+}
+
+.pie-wrapper--solid {
+  border-radius: 50%;
+  overflow: hidden;
+
+  &:before {
+    border-radius: 0 100% 100% 0 / 50%;
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+  }
+  
+  .label {
+    background: transparent;
+  }
+  
+  &.progress-65 {
+    @include draw-progress--solid(65, #e67e22, $bg-color);
+  }
+  
+  &.progress-25 {
+    @include draw-progress--solid(25, #9b59b6, $bg-color);
+  }
+  
+  &.progress-88 {
+    @include draw-progress--solid(88, #3498db, $bg-color);
+  }
+}
