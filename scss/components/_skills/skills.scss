@@ -1,6 +1,7 @@
 .skills{
     background-color: #383838;
     padding-top:80px;
+    position: relative;
     .title{
         font-size:30px;
         text-transform: uppercase;
@@ -25,6 +26,39 @@
         }
     }
 }
+.skills::before, .skills::after{
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+
+
+ 
+
+  
+  
+}
+.skills::before{
+  background-color:$main-font-color;
+  border-radius: 3px;
+  
+  top: calc(-25px/2);
+ 
+  transform: rotate(45deg);
+}
+.skills::after{
+  
+  border-radius: 3px;
+  
+  top: calc(-25px/2);
+  background-image: url(../img/svg/arrow-down-up.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  
+
+}
 
 
 
@@ -32,6 +66,7 @@
 *:before,
 *:after {
   box-sizing: border-box;
+  color:aq
 }
 
 html,

@@ -252,6 +252,7 @@ header img {
 .skills {
   background-color: #383838;
   padding-top: 80px;
+  position: relative;
 }
 .skills .title {
   font-size: 30px;
@@ -275,10 +276,35 @@ header img {
   text-transform: uppercase;
 }
 
+.skills::before, .skills::after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.skills::before {
+  background-color: #00a99d;
+  border-radius: 3px;
+  top: calc(-25px/2);
+  transform: rotate(45deg);
+}
+
+.skills::after {
+  border-radius: 3px;
+  top: calc(-25px/2);
+  background-image: url(../img/svg/arrow-down-up.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+  color: aq;
 }
 
 html,
@@ -463,6 +489,111 @@ body {
 .pie-wrapper--solid.progress-88:before {
   background: #3498db;
   transform: rotate(43.2deg);
+}
+
+.works {
+  padding-top: 80px;
+}
+.works .container {
+  max-width: 100%;
+}
+.works .container .title {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.works .container .title-info {
+  text-align: center;
+  color: #8a8a8a;
+  font-size: 15px;
+}
+.works .square {
+  width: 250px;
+  height: 250px;
+  background-color: #8a8a8a;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+.works .square:first-child {
+  margin-left: 5px;
+}
+.works .square:last-child {
+  margin: 0;
+}
+.works .active {
+  background-color: #00a99d;
+  position: relative;
+}
+.works .active::before, .works .active::after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.works .active::before {
+  background-color: white;
+  border-radius: 3px;
+  top: 55px;
+  left: 95px;
+  transform: rotate(45deg);
+}
+.works .active::after {
+  border-radius: 3px;
+  top: 55px;
+  left: 95px;
+  background-image: url(../img/svg/link.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+.works .romb-2::before, .works .romb-2::after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.works .romb-2::before {
+  background-color: #434343;
+  border-radius: 3px;
+  top: 55px;
+  left: 120px;
+  transform: rotate(45deg);
+}
+.works .romb-2::after {
+  border-radius: 3px;
+  top: 55px;
+  left: 120px;
+  background-image: url(../img/svg/search.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  transform: rotate(85deg);
+}
+
+.first-romb-text {
+  color: white;
+  text-align: center;
+  margin-top: 110px;
+  font-size: 14px;
+}
+
+.second-romb-text {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.like p {
+  color: white;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.row-bottom {
+  padding-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
