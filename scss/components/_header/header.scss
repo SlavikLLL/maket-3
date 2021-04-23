@@ -11,3 +11,13 @@ header{
 .row{
     align-items: center;
 }
+li.active {
+    a {
+      background-color: $main-color;
+    }
+  }
+
+header menu li.hovered,
+header menu li:hover {
+  background-color: $main-font-color;
+}

@@ -1,7 +1,7 @@
 .works{
     padding-top:80px;
     .container{
-        max-width: 100%;
+        
 
         .title{
             font-size:30px;
@@ -18,24 +18,112 @@
             font-size:15px;
         }
     }
-    .square{
+    .item{
         width: 250px;
         height: 250px;
         background-color: #8a8a8a;
         margin-right: 2px;
         margin-bottom: 2px;
+        &:hover{
+            background-color: $main-font-color;
+        }
+        .sub-item{
+            position: relative;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+    
+        }
+        .action {
+            color: $main-font-color;
+            text-transform: uppercase;
+            font-size:18px;
+
+            
+            padding: 5px;
+          }
+          .sub-item-hovered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+              
+              
+              
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+           
+            opacity: 1;
+            z-index: -1;
+            transition: .3s;
+            transform: scale(0);
+          }
+          &:hover {
+            .sub-item-hovered {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                
+          
+  
+              opacity: 1;
+              z-index: 1;
+              transform: scale(1);
+            }
+          }
+
+
     }
-    .square:first-child{
+    .text-hover{
+        margin-top:105px;
+    }
+    .first-romb-text{
+        color:white;
+    text-align: center;
+    
+    font-size:14px;
+    }
+    .second-romb-text{
+        color:white;
+        text-align: center;
+        font-size:12px;
+        
+    }
+
+    .like{
+        p{
+            color:white;
+            
+            
+        }
+    }
+
+
+
+
+
+
+
+
+    .item:first-child{
         margin-left: 5px;
     }
-    .square:last-child{
+    .item:last-child{
         margin:0;
     }
-    .active{
-        background-color: $main-font-color;
-        position: relative;
-    }
-    .active::before, .active::after{
+ 
+
+
+
+
+
+   
+    .romb-1::before, .romb-1::after{
         content: '';
         display: inline-block;
         width: 25px;
@@ -48,7 +136,7 @@
         
         
       }
-      .active::before{
+      .romb-1::before{
         background-color:white;
         border-radius: 3px;
         
@@ -57,7 +145,7 @@
        
         transform: rotate(45deg);
       }
-      .active::after{
+      .romb-1::after{
         
         border-radius: 3px;
         top:55px;
@@ -114,26 +202,9 @@
      
 }
 
-.first-romb-text{
-    color:white;
-    text-align: center;
-    margin-top:110px;
-    font-size:14px;
-}
-.second-romb-text{
-    color:white;
-    text-align: center;
-    font-size:12px;
-    margin-top:15px;
-}
-.like{
-    p{
-        color:white;
-        margin-left:5px;
-        margin-top:-5px;
-    }
-}
 
 .row-bottom{
     padding-bottom: 50px;
 }
+
+
