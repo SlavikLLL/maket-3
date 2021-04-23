@@ -596,4 +596,87 @@ body {
   padding-bottom: 50px;
 }
 
+.facts {
+  background-color: #383838;
+  padding-top: 75px;
+  margin-top: 60px;
+  position: relative;
+}
+.facts .title {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+.facts .title-info {
+  text-align: center;
+  color: #8a8a8a;
+  font-size: 15px;
+}
+.facts .number {
+  padding-top: 45px;
+}
+.facts .number p {
+  font-size: 75px;
+  color: #e4e4e4;
+  text-align: center;
+}
+.facts .icon-number {
+  color: #00a99d;
+  display: flex;
+  justify-content: center;
+  margin-top: -25px;
+}
+.facts .icon-number svg {
+  width: 20px;
+  height: 20px;
+}
+.facts .icon-number-text {
+  color: #8a8a8a;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.undercase {
+  color: #8a8a8a;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.facts::before, .facts::after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.facts::before {
+  background-color: #00a99d;
+  border-radius: 3px;
+  top: calc(-25px/2);
+  transform: rotate(45deg);
+}
+
+.facts::after {
+  border-radius: 3px;
+  top: calc(-25px/2);
+  background-image: url(../img/svg/arrow-down-up.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.contact {
+  background-color: #00a99d;
+}
+.contact .text-contact {
+  text-transform: uppercase;
+  color: #d0dddb;
+  font-size: 14px;
+  padding-top: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */
