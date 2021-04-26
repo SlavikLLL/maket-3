@@ -973,11 +973,26 @@ body {
 .clients {
   background-color: #383838;
 }
-.clients img {
-  width: 175px;
-  height: 175px;
-  margin-right: 15px;
-  padding-top: 20px;
+.clients .photo-box {
+  width: 275px;
+  height: 155px;
+  border: 1px solid #333333;
+  background-color: #333333;
+  margin-right: 20px;
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+.clients .photo-box img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 35px;
+  left: 75px;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
