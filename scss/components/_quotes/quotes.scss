@@ -1,0 +1,63 @@
+.quotes{
+    background-color: $main-font-color;
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+    
+    .whoSays{
+        border:0px solid white;
+        width: 270px;
+        height: 40px;
+        background-color:#e4e4e4;
+        border-radius: 8px;
+        text-align: center;
+        padding-top:10px;
+        padding-left: 10px;
+        margin-top: 50px;
+        
+        
+    }
+    .text-quotes{
+        color:white;
+        font-size:19px;
+    }
+}
+.quotes::before, .quotes::after{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+  
+  
+   
+  
+    
+    
+  }
+  .quotes::before{
+    background-color:black;
+    border-radius: 3px;
+    
+    top: calc(-25px/2);
+   
+    transform: rotate(45deg);
+  }
+  .quotes::after{
+    
+    border-radius: 3px;
+    
+    top: calc(-25px/2);
+    background-image: url(../img/svg/arrow-down-up.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    
+  
+  }
+  
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
