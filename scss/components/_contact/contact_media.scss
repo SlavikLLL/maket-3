@@ -1,0 +1,44 @@
+@media(max-width:1200px){
+    .contact{
+        background-color: #00a99d;
+        .text-contact{
+            text-transform: uppercase;
+            color:#d0dddb;
+            font-size:13px;
+            padding-top: 25px;
+        }
+        .btn-sm{
+            margin-bottom: 5px;
+            &:last-child{
+                margin:0;
+            }
+        }
+    }
+}
+
+
+
+@media(max-width:576px){
+    .contact{
+        background-color: #00a99d;
+        .text-contact{
+            text-transform: uppercase;
+            color:#d0dddb;
+            font-size:13px;
+            padding-top: 25px;
+            display: flex;
+            justify-content: center;
+        }
+        .btn-sm{
+            margin-bottom: 5px;
+            &:last-child{
+                margin-bottom: 5px;
+            }
+            
+        }
+        .button-wrapper{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

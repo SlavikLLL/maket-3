@@ -1,0 +1,244 @@
+@media(max-width:1200px){
+    .facts{
+        background-color: #383838;
+        padding-top:75px;
+        margin-top:60px;
+        position: relative;
+        
+        .title{
+            font-size:30px;
+            text-transform: uppercase;
+            text-align: center;
+            color:white;
+            
+    
+    
+    
+        }
+        .title-info{
+            text-align: center;
+            color:#8a8a8a;
+            font-size:14px;
+        }
+        .number{
+            padding-top:45px;
+            p{
+                font-size:70px;
+                color:#e4e4e4;
+                text-align: center;
+            }
+        }
+        .icon-number{
+            color:$main-font-color ;
+            display: flex;
+            justify-content: center;
+            margin-top:-25px;
+            svg{
+                width: 20px;
+                height: 20px;
+                
+            }
+            
+        }
+        .icon-number-text{
+            color:#8a8a8a;
+            font-size:14px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top:10px;
+        }
+    }
+    .undercase{
+        color:#8a8a8a;
+        font-size:10px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+@media(max-width:992px){
+    .facts{
+        background-color: #383838;
+        padding-top:75px;
+        margin-top:60px;
+        position: relative;
+        
+        .title{
+            font-size:26px;
+            text-transform: uppercase;
+            text-align: center;
+            color:white;
+            
+    
+    
+    
+        }
+        .title-info{
+            text-align: center;
+            color:#8a8a8a;
+            font-size:13px;
+        }
+        .number{
+            padding-top:45px;
+            p{
+                font-size:68px;
+                color:#e4e4e4;
+                text-align: center;
+            }
+        }
+        .icon-number{
+            color:$main-font-color ;
+            display: flex;
+            justify-content: center;
+            margin-top:-25px;
+            svg{
+                width: 20px;
+                height: 20px;
+                
+            }
+            
+        }
+        .icon-number-text{
+            color:#8a8a8a;
+            font-size:13px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top:10px;
+        }
+    }
+    .undercase{
+        color:#8a8a8a;
+        font-size:9px;
+        text-transform: uppercase;
+    }
+    .btn-sm:last-child{
+        margin-top:10px;
+        margin-left:1px;
+    }
+}
+
+
+@media(max-width:768px){
+    .facts{
+        background-color: #383838;
+        padding-top:75px;
+        margin-top:60px;
+        position: relative;
+        
+        .title{
+            font-size:24px;
+            text-transform: uppercase;
+            text-align: center;
+            color:white;
+            
+    
+    
+    
+        }
+        .title-info{
+            text-align: center;
+            color:#8a8a8a;
+            font-size:13px;
+        }
+        .number{
+            padding-top:45px;
+            p{
+                font-size:65px;
+                color:#e4e4e4;
+                text-align: center;
+            }
+        }
+        .icon-number{
+            color:$main-font-color ;
+            display: flex;
+            justify-content: center;
+            margin-top:-25px;
+            svg{
+                width: 20px;
+                height: 20px;
+                
+            }
+            
+        }
+        .icon-number-text{
+            color:#8a8a8a;
+            font-size:12px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top:10px;
+        }
+    }
+    .undercase{
+        color:#8a8a8a;
+        font-size:8px;
+        text-transform: uppercase;
+    }
+    .btn-sm:last-child{
+        margin-top:10px;
+        margin-left:1px;
+    }
+}
+
+
+
+@media(max-width:576px){
+    .facts{
+        background-color: #383838;
+        padding-top:75px;
+        margin-top:60px;
+        position: relative;
+        
+        .title{
+            font-size:22px;
+            text-transform: uppercase;
+            text-align: center;
+            color:white;
+            
+    
+    
+    
+        }
+        .title-info{
+            text-align: center;
+            color:#8a8a8a;
+            font-size:13px;
+        }
+        .number{
+            padding-top:45px;
+            p{
+                font-size:65px;
+                color:#e4e4e4;
+                text-align: center;
+            }
+        }
+        .icon-number{
+            color:$main-font-color ;
+            display: flex;
+            justify-content: center;
+            margin-top:-25px;
+            svg{
+                width: 20px;
+                height: 20px;
+                
+            }
+            
+        }
+        .icon-number-text{
+            color:#8a8a8a;
+            font-size:12px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top:10px;
+        }
+    }
+    .undercase{
+        color:#8a8a8a;
+        font-size:8px;
+        text-transform: uppercase;
+    }
+    .btn-sm:last-child{
+        margin-top:10px;
+        margin-left:1px;
+    }
+}

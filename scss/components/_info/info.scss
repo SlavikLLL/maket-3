@@ -84,15 +84,18 @@
 }
 .ipad-wrapper{
     padding-top:30px;
+    overflow: hidden;
     .ipad{
         img{
             position: relative;
-    margin-bottom: -220px;
+    margin-bottom: -270px;
     height:  348px;
         }
     }
     .ipad-reverse{
-        margin-bottom: -38px;
+        img{
+            margin-bottom: -80px;
+        }
     }
     
 

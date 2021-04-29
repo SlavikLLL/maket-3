@@ -1,0 +1,82 @@
+@media(max-width:1200px){
+    .quotes{
+        background-color: $main-font-color;
+        margin-top: 160px;
+        text-align: center;
+        position: relative;
+        
+        .whoSays{
+            border:0px solid white;
+            width: 270px;
+            height: 40px;
+            background-color:#e4e4e4;
+            border-radius: 8px;
+            text-align: center;
+            padding-top:10px;
+            padding-left: 10px;
+            margin-top: 50px;
+            
+            
+        }
+        .text-quotes{
+            color:white;
+            font-size:18px;
+        }
+    }
+}
+
+
+@media(max-width:992px){
+    .quotes{
+        background-color: $main-font-color;
+        margin-top: 160px;
+        text-align: center;
+        position: relative;
+        
+        .whoSays{
+            border:0px solid white;
+            width: 260px;
+            height: 35px;
+            background-color:#e4e4e4;
+            border-radius: 8px;
+            text-align: center;
+            padding-top:8px;
+            padding-left: 10px;
+            margin-top: 50px;
+            font-size:14px;
+            
+            
+        }
+        .text-quotes{
+            color:white;
+            font-size:16px;
+        }
+    }
+}
+@media(max-width:768px){
+    .quotes{
+        background-color: $main-font-color;
+        margin-top: 160px;
+        text-align: center;
+        position: relative;
+        
+        .whoSays{
+            border:0px solid white;
+            width: 250px;
+            height: 30px;
+            background-color:#e4e4e4;
+            border-radius: 8px;
+            text-align: center;
+            padding-top:8px;
+            padding-left: 10px;
+            margin-top: 50px;
+            font-size:13px;
+            
+            
+        }
+        .text-quotes{
+            color:white;
+            font-size:14px;
+        }
+    }
+}
