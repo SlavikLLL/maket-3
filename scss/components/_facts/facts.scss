@@ -1,88 +1,70 @@
-.facts{
-    background-color: #383838;
-    padding-top:75px;
-    margin-top:60px;
-    position: relative;
-    
-    .title{
-        font-size:30px;
-        text-transform: uppercase;
-        text-align: center;
-        color:white;
-        
+.facts {
+  background-color: #383838;
+  padding-top: 75px;
+  margin-top: 60px;
+  position: relative;
 
-
-
+  .title {
+    @include title(28px);
+    color: white;
+  }
+  .title-info {
+    @include title-info(15px);
+  }
+  .number {
+    padding-top: 45px;
+    p {
+      font-size: 75px;
+      color: #e4e4e4;
+      text-align: center;
     }
-    .title-info{
-        text-align: center;
-        color:#8a8a8a;
-        font-size:15px;
+  }
+  .icon-number {
+    color: $main-font-color;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    svg {
+      width: 20px;
+      height: 20px;
     }
-    .number{
-        padding-top:45px;
-        p{
-            font-size:75px;
-            color:#e4e4e4;
-            text-align: center;
-        }
-    }
-    .icon-number{
-        color:$main-font-color ;
-        display: flex;
-        justify-content: center;
-        margin-top:-25px;
-        svg{
-            width: 20px;
-            height: 20px;
-            
-        }
-        
-    }
-    .icon-number-text{
-        color:#8a8a8a;
-        font-size:14px;
-        text-align: center;
-        text-transform: uppercase;
-        margin-top:10px;
-    }
-}
-.undercase{
-    color:#8a8a8a;
-    font-size:10px;
+  }
+  .icon-number-text {
+    color: $main-color;
+    font-size: 14px;
+    text-align: center;
     text-transform: uppercase;
+    margin-top: 10px;
+  }
+}
+.undercase {
+  color: $main-color;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
-.facts::before, .facts::after{
-    content: '';
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-  
-  
-   
-  
-    
-    
-  }
-  .facts::before{
-    background-color:$main-font-color;
-    border-radius: 3px;
-    
-    top: calc(-25px/2);
-   
-    transform: rotate(45deg);
-  }
-  .facts::after{
-    
-    border-radius: 3px;
-    
-    top: calc(-25px/2);
-    background-image: url(../img/svg/arrow-down-up.svg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    
-  
-  }
+.facts::before,
+.facts::after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.facts::before {
+  background-color: $main-font-color;
+  border-radius: 3px;
+
+  top: calc(-25px / 2);
+
+  transform: rotate(45deg);
+}
+.facts::after {
+  border-radius: 3px;
+
+  top: calc(-25px / 2);
+  background-image: url(../img/svg/arrow-down-up.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}

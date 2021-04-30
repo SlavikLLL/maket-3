@@ -40,3 +40,14 @@
       }
     }
   }
+  @mixin title($prorepty){
+    font-size:$prorepty;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  @mixin title-info($prorepty){
+    
+      text-align: center;
+      color:#9b9b9b;
+      font-size:$prorepty;
+  }

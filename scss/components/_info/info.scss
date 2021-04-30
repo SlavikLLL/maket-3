@@ -6,16 +6,12 @@
 
     .title-features{
         h2{
-            font-size: 30px;
-            text-transform: uppercase;
-            text-align: center;
+            @include title(30px);
             color:white;
 
         }
         p{
-            font-size:15px;
-            text-align: center;
-            color:#9b9b9b;
+            @include title-info(15px);
 
         }
     }

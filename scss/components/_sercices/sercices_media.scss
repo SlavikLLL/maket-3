@@ -1,319 +1,235 @@
-@media(max-width:1200px){
-    .sercices{
-    
-        .title{
-            font-size:28px;
-            text-transform: uppercase;
-            text-align: center;
-    
-    
-        }
-        .title-info{
-            text-align: center;
-            color:#9b9b9b;
-            font-size:15px;
-        }
-        .row{
-            padding-top:50px;
-        }
-        svg{
-            width: 35px;
-            height: 35px;
-            color:white;
-            position: absolute;
-            top:50%;
-            left:50%;
-            transform:translate(-50%, -50%);
-        }
-        
-    
-        
-    
+@media (max-width: 1200px) {
+  .sercices {
+    .title {
+      @include title(28px);
     }
-    .circle {
-        width: 100px;
-        height: 100px;
-        border: 2px;
-        border-radius: 50%;
-        position: relative;
-        margin: 0 auto; 
-        
-      }
-      #circle-one{
-          background-color: #383838;
-      }
-      #circle-two{
-          background-color: $main-font-color;
-      }
-      #circle-three{
-          background-color: #383838;
-      }
-      .sercices h3{
-          text-align: center;
-          font-size:18px;
-          color:#9b9b9b;
-          text-transform: uppercase;
-          padding-top:15px;
-    
-    
-      }
-      .sercices p {
-      
-      
-        text-align: center;
-        padding-top: 5px;
-        font-size:13px;
-        color:#9b9b9b;
-      }
-      .button{
-          padding-top:10px;
-         text-align: center;
-    
-      }
-     
+    .title-info {
+      @include title-info(14px);
+    }
+    .row {
+      padding-top: 50px;
+    }
+    svg {
+      width: 35px;
+      height: 35px;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    border: 2px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+  }
+  #circle-one {
+    background-color: #383838;
+  }
+  #circle-two {
+    background-color: $main-font-color;
+  }
+  #circle-three {
+    background-color: #383838;
+  }
+  .sercices h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+    padding-top: 15px;
+  }
+  .sercices p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 13px;
+    color: #9b9b9b;
+  }
+  .button {
+    padding-top: 10px;
+    text-align: center;
+  }
 }
 
-
-@media(max-width:992px){
-    .sercices{
-    
-        .title{
-            font-size:25px;
-            text-transform: uppercase;
-            text-align: center;
-    
-    
-        }
-        .title-info{
-            text-align: center;
-            color:#9b9b9b;
-            font-size:14px;
-        }
-        .row{
-            padding-top:50px;
-        }
-        svg{
-            width: 30px;
-            height: 30px;
-            color:white;
-            position: absolute;
-            top:50%;
-            left:50%;
-            transform:translate(-50%, -50%);
-        }
-        
-    
-        
-    
+@media (max-width: 992px) {
+  .sercices {
+    .title {
+      @include title(28px);
     }
-    .circle {
-        width: 90px;
-        height: 90px;
-        border: 2px;
-        border-radius: 50%;
-        position: relative;
-        margin: 0 auto; 
-        
-      }
-      #circle-one{
-          background-color: #383838;
-      }
-      #circle-two{
-          background-color: $main-font-color;
-      }
-      #circle-three{
-          background-color: #383838;
-      }
-      .sercices h3{
-          text-align: center;
-          font-size:17px;
-          color:#9b9b9b;
-          text-transform: uppercase;
-          padding-top:15px;
-    
-    
-      }
-      .sercices p {
-      
-      
-        text-align: center;
-        padding-top: 5px;
-        font-size:11px;
-        color:#9b9b9b;
-      }
-      .button{
-          padding-top:10px;
-         text-align: center;
-    
-      }
-     
- 
+    .title-info {
+      @include title-info(14px);
+    }
+    .row {
+      padding-top: 50px;
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .circle {
+    width: 90px;
+    height: 90px;
+    border: 2px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+  }
+  #circle-one {
+    background-color: #383838;
+  }
+  #circle-two {
+    background-color: $main-font-color;
+  }
+  #circle-three {
+    background-color: #383838;
+  }
+  .sercices h3 {
+    text-align: center;
+    font-size: 17px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+    padding-top: 15px;
+  }
+  .sercices p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 11px;
+    color: #9b9b9b;
+  }
+  .button {
+    padding-top: 10px;
+    text-align: center;
+  }
 }
 
-@media(max-width:768px){
-    .sercices{
-    
-        .title{
-            font-size:25px;
-            text-transform: uppercase;
-            text-align: center;
-    
-    
-        }
-        .title-info{
-            text-align: center;
-            color:#9b9b9b;
-            font-size:13px;
-        }
-        .row{
-            padding-top:50px;
-        }
-        svg{
-            width: 28px;
-            height: 28px;
-            color:white;
-            position: absolute;
-            top:50%;
-            left:50%;
-            transform:translate(-50%, -50%);
-        }
-        
-    
-        
-    
+@media (max-width: 768px) {
+  .sercices {
+    .title {
+      @include title(25px);
     }
-    .circle {
-        width: 75px;
-        height: 75px;
-        border: 2px;
-        border-radius: 50%;
-        position: relative;
-        margin: 0 auto; 
-        
-      }
-      #circle-one{
-          background-color: #383838;
-      }
-      #circle-two{
-          background-color: $main-font-color;
-          
-      }
-      #circle-three{
-          background-color: #383838;
-      }
-      .sercices h3{
-          text-align: center;
-          font-size:14px;
-          color:#9b9b9b;
-          text-transform: uppercase;
-          padding-top:15px;
-          &:last-child{
-              font-size:13px;
-          }
-          &:first-child{
-              font-size:13px;
-          }
-    
-    
-      }
-      .sercices p {
-      
-      
-        text-align: center;
-        padding-top: 5px;
-        font-size:10px;
-        color:#9b9b9b;
-        
-      }
-      .button{
-          padding-top:10px;
-         text-align: center;
-    
-      }
-      
-     
- 
+    .title-info {
+      @include title-info(13px);
+    }
+    .row {
+      padding-top: 50px;
+    }
+    svg {
+      width: 28px;
+      height: 28px;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .circle {
+    width: 75px;
+    height: 75px;
+    border: 2px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+  }
+  #circle-one {
+    background-color: #383838;
+  }
+  #circle-two {
+    background-color: $main-font-color;
+  }
+  #circle-three {
+    background-color: #383838;
+  }
+  .sercices h3 {
+    text-align: center;
+    font-size: 14px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+    padding-top: 15px;
+    &:last-child {
+      font-size: 13px;
+    }
+    &:first-child {
+      font-size: 13px;
+    }
+  }
+  .sercices p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 10px;
+    color: #9b9b9b;
+  }
+  .button {
+    padding-top: 10px;
+    text-align: center;
+  }
 }
 
-
-@media(max-width:576px){
-    .sercices{
-    
-        .title{
-            font-size:23px;
-            text-transform: uppercase;
-            text-align: center;
-    
-    
-        }
-        .title-info{
-            text-align: center;
-            color:#9b9b9b;
-            font-size:12px;
-        }
-        .row{
-            padding-top:50px;
-        }
-        svg{
-            width: 25px;
-            height: 25px;
-            color:white;
-            position: absolute;
-            top:50%;
-            left:50%;
-            transform:translate(-50%, -50%);
-        }
-        
-    
-        
-    
+@media (max-width: 576px) {
+  .sercices {
+    .title {
+      @include title(23px);
     }
-    .circle {
-        width: 70px;
-        height: 70px;
-        border: 2px;
-        border-radius: 50%;
-        position: relative;
-        margin: 0 auto; 
-        
-      }
-      #circle-one{
-          background-color: #383838;
-          
-      }
-      #circle-two{
-          background-color: $main-font-color;
-          margin-top: 10px;
-          
-      }
-      #circle-three{
-          background-color: #383838;
-          margin-top: 10px;
-      }
-      .sercices h3{
-          text-align: center;
-          font-size:14px;
-          color:#9b9b9b;
-          text-transform: uppercase;
-          padding-top:15px;
-        
-    
-      }
-      .sercices p {
-      
-      
-        text-align: center;
-        padding-top: 5px;
-        font-size:12px;
-        color:#9b9b9b;
-        
-      }
-      .button{
-          padding-top:10px;
-         text-align: center;
-    
-      }
-      
-     
- 
+    .title-info {
+      @include title-info(22px);
+    }
+    .row {
+      padding-top: 50px;
+    }
+    svg {
+      width: 25px;
+      height: 25px;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .circle {
+    width: 70px;
+    height: 70px;
+    border: 2px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+  }
+  #circle-one {
+    background-color: #383838;
+  }
+  #circle-two {
+    background-color: $main-font-color;
+    margin-top: 10px;
+  }
+  #circle-three {
+    background-color: #383838;
+    margin-top: 10px;
+  }
+  .sercices h3 {
+    text-align: center;
+    font-size: 14px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+    padding-top: 15px;
+  }
+  .sercices p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #9b9b9b;
+  }
+  .button {
+    padding-top: 10px;
+    text-align: center;
+  }
 }

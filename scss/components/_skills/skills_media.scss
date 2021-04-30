@@ -1,168 +1,153 @@
-@media(max-width:1200px){
-    .skills{
-        background-color: #383838;
-        padding-top:80px;
-        position: relative;
-        .title{
-            font-size:28px;
-            text-transform: uppercase;
-            text-align: center;
-            color:white;
-    
-    
-        }
-        .title-info{
-            text-align: center;
-            color:#585858;
-            font-size:14px;
-        }
-        .circle-bar{
-            padding-top:50px;
-            padding-bottom: 60px;
-            p{
-                font-size:13px;
-                color:#8a8a8a;
-                text-align: center;
-                text-transform: uppercase;
-                margin-left: 25px;
-            }
-        }
+@media (max-width: 1200px) {
+  .skills {
+    background-color: #383838;
+    padding-top: 80px;
+    position: relative;
+    .title {
+      font-size: 28px;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
     }
+    .title-info {
+      text-align: center;
+      color: #585858;
+      font-size: 14px;
+    }
+    .circle-bar {
+      padding-top: 50px;
+      padding-bottom: 60px;
+      p {
+        font-size: 13px;
+        color: #8a8a8a;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 25px;
+      }
+    }
+  }
 }
 
-
-@media(max-width:992px){
-    .skills{
-        background-color: #383838;
-        padding-top:80px;
-        position: relative;
-        .title{
-            font-size:26px;
-            text-transform: uppercase;
-            text-align: center;
-            color:white;
-    
-    
-        }
-        .title-info{
-            text-align: center;
-            color:#585858;
-            font-size:13px;
-        }
-        .circle-bar{
-            padding-top:50px;
-            padding-bottom: 60px;
-            p{
-                font-size:12px;
-                color:#8a8a8a;
-                text-align: center;
-                text-transform: uppercase;
-                margin-left: 30px;
-            }
-        }
-        .pie-wrapper{
-            width: 140px;
-            height: 140px;
-
-        }
-        .label{
-            margin-top: -10px;
-        }
-        .pie{
-            width: 140px;
-        }
+@media (max-width: 992px) {
+  .skills {
+    background-color: #383838;
+    padding-top: 80px;
+    position: relative;
+    .title {
+      font-size: 26px;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
     }
+    .title-info {
+      text-align: center;
+      color: #585858;
+      font-size: 13px;
+    }
+    .circle-bar {
+      padding-top: 50px;
+      padding-bottom: 60px;
+      p {
+        font-size: 12px;
+        color: #8a8a8a;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 30px;
+      }
+    }
+    .pie-wrapper {
+      width: 140px;
+      height: 140px;
+    }
+    .label {
+      margin-top: -10px;
+    }
+    .pie {
+      width: 140px;
+    }
+  }
 }
 
-
-@media(max-width:768px){
-    .skills{
-        background-color: #383838;
-        padding-top:80px;
-        position: relative;
-        .title{
-            font-size:24px;
-            text-transform: uppercase;
-            text-align: center;
-            color:white;
-    
-    
-        }
-        .title-info{
-            text-align: center;
-            color:#585858;
-            font-size:12px;
-        }
-        .circle-bar{
-            padding-top:50px;
-            padding-bottom: 60px;
-            p{
-                font-size:11px;
-                color:#8a8a8a;
-                text-align: center;
-                text-transform: uppercase;
-                margin-left: 55px;
-            }
-        }
-        .pie-wrapper{
-            width: 130px;
-            height: 130px;
-
-        }
-        .label{
-            margin-top: -10px;
-        }
-        .pie{
-            width: 130px;
-        }
+@media (max-width: 768px) {
+  .skills {
+    background-color: #383838;
+    padding-top: 80px;
+    position: relative;
+    .title {
+      font-size: 24px;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
     }
+    .title-info {
+      text-align: center;
+      color: #585858;
+      font-size: 12px;
+    }
+    .circle-bar {
+      padding-top: 50px;
+      padding-bottom: 60px;
+      p {
+        font-size: 11px;
+        color: #8a8a8a;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 55px;
+      }
+    }
+    .pie-wrapper {
+      width: 130px;
+      height: 130px;
+    }
+    .label {
+      margin-top: -10px;
+    }
+    .pie {
+      width: 130px;
+    }
+  }
 }
 
-
-@media(max-width:576px){
-    .skills{
-        background-color: #383838;
-        padding-top:80px;
-        position: relative;
-        .title{
-            font-size:22px;
-            text-transform: uppercase;
-            text-align: center;
-            color:white;
-    
-    
-        }
-        .title-info{
-            text-align: center;
-            color:#585858;
-            font-size:12px;
-        }
-        .circle-bar{
-            padding-top:50px;
-            padding-bottom: 60px;
-            p{
-                font-size:10px;
-                color:#8a8a8a;
-                text-align: center;
-                text-transform: uppercase;
-                margin-right: 55px;
-                
-            }
-        }
-        .pie-wrapper{
-            width: 130px;
-            height: 130px;
-
-        }
-        .label{
-            margin-top: -10px;
-        }
-        .pie{
-            width: 130px;
-        }
-        .set-size{
-         display: flex;
-         justify-content: center;
-        }
+@media (max-width: 576px) {
+  .skills {
+    background-color: #383838;
+    padding-top: 80px;
+    position: relative;
+    .title {
+      font-size: 22px;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
     }
+    .title-info {
+      text-align: center;
+      color: #585858;
+      font-size: 12px;
+    }
+    .circle-bar {
+      padding-top: 50px;
+      padding-bottom: 60px;
+      p {
+        font-size: 10px;
+        color: #8a8a8a;
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 55px;
+      }
+    }
+    .pie-wrapper {
+      width: 130px;
+      height: 130px;
+    }
+    .label {
+      margin-top: -10px;
+    }
+    .pie {
+      width: 130px;
+    }
+    .set-size {
+      display: flex;
+      justify-content: center;
+    }
+  }
 }

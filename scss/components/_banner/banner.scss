@@ -1,51 +1,42 @@
-.banner-wrapper{
-    background-color:$main-color;
-    padding-top:220px;
-    padding-bottom: 220px;
-    .row{
-        justify-content: flex-start;
-        text-align: center;
-        .first-p{
-            font-size:25px;
-
-        }
-        .second-p{
-            font-weight: bold;
-            font-size: 63px;
-            margin-top: -40px;
-            color:#333333;
-        }
-        .third-p{
-            background-color: #333333;
-            color: white;
-            margin-top: -25px;
-            max-width: 100%;
-            
-        }
-        .third-p::first-letter{
-            color:$main-font-color;
-        }
-        .fourth-p{
-            text-transform: uppercase;
-            color:#333333;
-            font-weight: bold;
-            font-size: 18px;
-
-        }
-        
-        .icon{
-            color:$main-font-color;
-            svg{
-                width: 50px;
-                height: 50px;
-                color:$main-font-color;
-            }
-            
-                }
-        }
+.banner-wrapper {
+  background-color: $main-color;
+  padding-top: 220px;
+  padding-bottom: 220px;
+  .row {
+    justify-content: flex-start;
+    text-align: center;
+    .first-p {
+      font-size: 25px;
     }
-    
-    
+    .second-p {
+      font-weight: bold;
+      font-size: 63px;
+      margin-top: -40px;
+      color: #333333;
+    }
+    .third-p {
+      background-color: #333333;
+      color: white;
+      margin-top: -25px;
+      max-width: 100%;
+    }
+    .third-p::first-letter {
+      color: $main-font-color;
+    }
+    .fourth-p {
+      text-transform: uppercase;
+      color: #333333;
+      font-weight: bold;
+      font-size: 18px;
+    }
 
-
-
+    .icon {
+      color: $main-font-color;
+      svg {
+        width: 50px;
+        height: 50px;
+        color: $main-font-color;
+      }
+    }
+  }
+}

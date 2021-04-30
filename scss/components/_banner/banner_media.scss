@@ -1,154 +1,136 @@
-@media(max-width:1200px){
-    .banner-wrapper{
-        background-color:$main-color;
-        padding-top:220px;
-        padding-bottom: 220px;
-        .row{
-            justify-content: flex-start;
-            text-align: center;
-            .first-p{
-                font-size:20px;
-    
-            }
-            .second-p{
-                font-weight: bold;
-                font-size: 55px;
-                margin-top: -40px;
-                color:#333333;
-            }
-            .third-p{
-                background-color: #333333;
-                color: white;
-                margin-top: -25px;
-                max-width: 100%;
-                
-            }
-            .third-p::first-letter{
-                color:$main-font-color;
-            }
-            .fourth-p{
-                text-transform: uppercase;
-                color:#333333;
-                font-weight: bold;
-                font-size: 16px;
-    
-            }
-            
-            .icon{
-                color:$main-font-color;
-                svg{
-                    width: 45px;
-                    height: 45px;
-                    color:$main-font-color;
-                }
-                
-                    }
-            }
+@media (max-width: 1200px) {
+  .banner-wrapper {
+    background-color: $main-color;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    .row {
+      justify-content: flex-start;
+      text-align: center;
+      .first-p {
+        font-size: 20px;
+      }
+      .second-p {
+        font-weight: bold;
+        font-size: 55px;
+        margin-top: -40px;
+        color: #333333;
+      }
+      .third-p {
+        background-color: #333333;
+        color: white;
+        margin-top: -25px;
+        max-width: 100%;
+      }
+      .third-p::first-letter {
+        color: $main-font-color;
+      }
+      .fourth-p {
+        text-transform: uppercase;
+        color: #333333;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      .icon {
+        color: $main-font-color;
+        svg {
+          width: 45px;
+          height: 45px;
+          color: $main-font-color;
         }
-        
+      }
+    }
+  }
 }
 
+@media (max-width: 992px) {
+  .banner-wrapper {
+    background-color: $main-color;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    .row {
+      justify-content: flex-start;
+      text-align: center;
+      .first-p {
+        font-size: 19px;
+      }
+      .second-p {
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: -40px;
+        color: #333333;
+      }
+      .third-p {
+        background-color: #333333;
+        color: white;
+        margin-top: -20px;
+        max-width: 100%;
+      }
+      .third-p::first-letter {
+        color: $main-font-color;
+      }
+      .fourth-p {
+        text-transform: uppercase;
+        color: #333333;
+        font-weight: bold;
+        font-size: 15px;
+      }
 
-
-
-@media(max-width:992px){
-    .banner-wrapper{
-        background-color:$main-color;
-        padding-top:220px;
-        padding-bottom: 220px;
-        .row{
-            justify-content: flex-start;
-            text-align: center;
-            .first-p{
-                font-size:19px;
-    
-            }
-            .second-p{
-                font-weight: bold;
-                font-size: 50px;
-                margin-top: -40px;
-                color:#333333;
-            }
-            .third-p{
-                background-color: #333333;
-                color: white;
-                margin-top: -20px;
-                max-width: 100%;
-                
-            }
-            .third-p::first-letter{
-                color:$main-font-color;
-            }
-            .fourth-p{
-                text-transform: uppercase;
-                color:#333333;
-                font-weight: bold;
-                font-size: 15px;
-    
-            }
-            
-            .icon{
-                color:$main-font-color;
-                svg{
-                    width: 40px;
-                    height: 40px;
-                    color:$main-font-color;
-                }
-                
-                    }
-            }
+      .icon {
+        color: $main-font-color;
+        svg {
+          width: 40px;
+          height: 40px;
+          color: $main-font-color;
         }
-        
+      }
+    }
+  }
 }
 
-@media(max-width:576px){
-    .banner-wrapper{
-        background-color:$main-color;
-        padding-top:220px;
-        padding-bottom: 220px;
-        .row{
-            justify-content: flex-start;
-            text-align: center;
-            .first-p{
-                font-size:17px;
-                padding-bottom: 10px;
-    
-            }
-            .second-p{
-                font-weight: bold;
-                font-size: 50px;
-                margin-top: -40px;
-                color:#333333;
-            }
-            .third-p{
-                background-color: #333333;
-                color: white;
-                margin-top: -20px;
-                max-width: 100%;
-                font-size: 15px;
-                
-            }
-            .third-p::first-letter{
-                color:$main-font-color;
-            }
-            .fourth-p{
-                text-transform: uppercase;
-                color:#333333;
-                font-weight: bold;
-                font-size: 14px;
-    
-            }
-            
-            .icon{
-                color:$main-font-color;
-                svg{
-                    width: 30px;
-                    height: 30px;
-                    color:$main-font-color;
-                }
-                
-                    }
-            }
+@media (max-width: 576px) {
+  .banner-wrapper {
+    background-color: $main-color;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    .row {
+      justify-content: flex-start;
+      text-align: center;
+      .first-p {
+        font-size: 17px;
+        padding-bottom: 10px;
+      }
+      .second-p {
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: -40px;
+        color: #333333;
+      }
+      .third-p {
+        background-color: #333333;
+        color: white;
+        margin-top: -20px;
+        max-width: 100%;
+        font-size: 15px;
+      }
+      .third-p::first-letter {
+        color: $main-font-color;
+      }
+      .fourth-p {
+        text-transform: uppercase;
+        color: #333333;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .icon {
+        color: $main-font-color;
+        svg {
+          width: 30px;
+          height: 30px;
+          color: $main-font-color;
         }
-        
+      }
+    }
+  }
 }

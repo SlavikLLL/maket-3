@@ -1,81 +1,63 @@
-.skills{
-    background-color: #383838;
-    padding-top:80px;
-    position: relative;
-    .title{
-        font-size:30px;
-        text-transform: uppercase;
-        text-align: center;
-        color:white;
-
-
+.skills {
+  background-color: #383838;
+  padding-top: 80px;
+  position: relative;
+  .title {
+    @include title(30px);
+    color: white;
+  }
+  .title-info {
+    @include title-info(15px);
+  }
+  .circle-bar {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    p {
+      font-size: 14px;
+      color: #8a8a8a;
+      text-align: center;
+      text-transform: uppercase;
     }
-    .title-info{
-        text-align: center;
-        color:#585858;
-        font-size:15px;
-    }
-    .circle-bar{
-        padding-top:50px;
-        padding-bottom: 60px;
-        p{
-            font-size:14px;
-            color:#8a8a8a;
-            text-align: center;
-            text-transform: uppercase;
-        }
-    }
+  }
 }
-.skills::before, .skills::after{
-  content: '';
+.skills::before,
+.skills::after {
+  content: "";
   display: inline-block;
   width: 25px;
   height: 25px;
   position: absolute;
-
-
- 
-
-  
-  
 }
-.skills::before{
-  background-color:$main-font-color;
+.skills::before {
+  background-color: $main-font-color;
   border-radius: 3px;
-  
-  top: calc(-25px/2);
- 
+
+  top: calc(-25px / 2);
+
   transform: rotate(45deg);
 }
-.skills::after{
-  
+.skills::after {
   border-radius: 3px;
-  
-  top: calc(-25px/2);
+
+  top: calc(-25px / 2);
   background-image: url(../img/svg/arrow-down-up.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 60%;
-  
-
 }
-
-
 
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-  color:aq
+  color: aq;
 }
 
 html,
 body {
   background: #ecf0f1;
   color: #444;
-  font-family: 'Lato', Tahoma, Geneva, sans-serif;
-  
-  
+  font-family: "Lato", Tahoma, Geneva, sans-serif;
 }
 
 .set-size {
@@ -85,7 +67,7 @@ body {
 .charts-container {
   &:after {
     clear: both;
-    content: '';
+    content: "";
     display: table;
   }
 }
@@ -95,7 +77,7 @@ body {
   float: left;
   margin: 15px;
   position: relative;
-  
+
   &:nth-child(3n + 1) {
     clear: both;
   }
@@ -127,7 +109,7 @@ body {
     display: block;
     font-size: $label-font-size;
     left: $label-font-size-redo / 10;
-    line-height: $label-font-size-redo * .70;
+    line-height: $label-font-size-redo * 0.7;
     position: absolute;
     right: $label-font-size-redo / 10;
     text-align: center;
@@ -135,7 +117,7 @@ body {
 
     .smaller {
       color: #bdc3c7;
-      font-size: .45em;
+      font-size: 0.45em;
       padding-bottom: 20px;
       vertical-align: super;
     }
@@ -189,25 +171,25 @@ body {
 
   &:before {
     border-radius: 0 100% 100% 0 / 50%;
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     margin-left: 50%;
     transform-origin: left;
   }
-  
+
   .label {
     background: transparent;
   }
-  
+
   &.progress-65 {
     @include draw-progress--solid(65, #e67e22, $bg-color);
   }
-  
+
   &.progress-25 {
     @include draw-progress--solid(25, #9b59b6, $bg-color);
   }
-  
+
   &.progress-88 {
     @include draw-progress--solid(88, #3498db, $bg-color);
   }

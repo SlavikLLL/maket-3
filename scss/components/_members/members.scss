@@ -1,53 +1,43 @@
-.members{
-    padding-top:80px;
-    .title 
-    {
-        font-size:30px;
-        text-transform: uppercase;
-        text-align: center;
+.members {
+  padding-top: 80px;
+  .title {
+    @include title(30px);
+  }
+  .title-info {
+    @include title-info(15px);
+  }
+  .btn-sm {
+    margin-top: -30px;
+    margin-left: 115px;
+  }
+  .member {
+    width: 250px;
+    height: 250px;
+    background-color: $main-color;
+    margin-right: 10px;
 
-    }
-    .title-info{
-        text-align: center;
-        color:#8a8a8a;
-        font-size:15px;
-
-    }
-    .btn-sm{
-        margin-top:-30px;
-        margin-left:115px;
-        
-    }
-    .member{
-      width: 250px;
-      height: 250px;
-      background-color: #8a8a8a;
-      margin-right: 10px;
-      
-      .info-members{
-        text-align: center;
-        padding-top: 220px;
-        color:#8a8a8a;
-        .position{
-          padding-top: 10px;
-        }
-        .email{
-          display: flex;
-          svg{
-            margin-right:10px;
-            margin-top: 5px;
-          }
-        }
-        .phone{
-          display: flex;
-          padding-left:20px;
-          svg{
-            margin-top: -1px;
-            margin-right: 15px;
-          }
+    .info-members {
+      text-align: center;
+      padding-top: 220px;
+      color: $main-color;
+      .position {
+        padding-top: 10px;
+      }
+      .email {
+        display: flex;
+        svg {
+          margin-right: 10px;
+          margin-top: 5px;
         }
       }
-
+      .phone {
+        display: flex;
+        padding-left: 20px;
+        svg {
+          margin-top: -1px;
+          margin-right: 15px;
+        }
+      }
     }
   }
-   
+}
