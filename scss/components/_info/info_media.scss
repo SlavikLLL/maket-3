@@ -251,17 +251,20 @@
   .ipad-wrapper {
     padding-top: 30px;
     overflow: hidden;
+    
     .ipad {
       img {
         position: relative;
         margin-bottom: -220px;
         height: 250px;
+        display: none;
       }
     }
     .ipad-reverse {
       img {
         margin-bottom: -60px;
         height: 380px;
+        display: none;
       }
     }
   }

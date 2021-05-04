@@ -106,6 +106,10 @@
       width: 130px;
     }
   }
+  .set-size {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 576px) {

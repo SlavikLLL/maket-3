@@ -502,6 +502,7 @@
                   transform: scale(1);
                 }
               }
+             
     
     
         }
@@ -530,6 +531,7 @@
                 
             }
         }
+        
     
     
     
@@ -632,6 +634,12 @@
     
     .row-bottom{
         padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .row-upper{
+      display: flex;
+      justify-content: center;
     }
     
     

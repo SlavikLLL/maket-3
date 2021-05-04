@@ -16,19 +16,22 @@
       margin-left: 115px;
     }
     .member {
-      width: 250px;
+      width: 230px;
       height: 250px;
       background-color: $main-color;
       margin-right: 10px;
 
       .info-members {
+        
         text-align: center;
         padding-top: 220px;
         color: $main-color;
         .position {
           padding-top: 10px;
+          display: none;
         }
         .email {
+          
           display: flex;
           svg {
             margin-right: 10px;
@@ -36,6 +39,7 @@
           }
         }
         .phone {
+          
           display: flex;
           padding-left: 20px;
           svg {
@@ -66,12 +70,13 @@
       margin-left: 115px;
     }
     .member {
-      width: 225px;
+      width: 165px;
       height: 225px;
       background-color: $main-color;
       margin-right: 10px;
 
       .info-members {
+        
         text-align: center;
         padding-top: 220px;
         color: $main-color;
@@ -116,12 +121,13 @@
       margin-left: 115px;
     }
     .member {
-      width: 175px;
+      width: 130px;
       height: 175px;
       background-color: $main-color;
       margin-right: 5px;
 
       .info-members {
+        
         text-align: center;
         padding-top: 150px;
         color: $main-color;
@@ -182,6 +188,7 @@
       }
 
       .info-members {
+        
         text-align: center;
         padding-top: 150px;
         color: $main-color;

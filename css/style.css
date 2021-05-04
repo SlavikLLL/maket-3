@@ -468,6 +468,10 @@ header menu li:hover {
     padding-top: 10px;
     text-align: center;
   }
+
+  .sercices .info-item {
+    padding-bottom: 10px;
+  }
 }
 @media (max-width: 576px) {
   .sercices .title {
@@ -858,10 +862,12 @@ header menu li:hover {
     position: relative;
     margin-bottom: -220px;
     height: 250px;
+    display: none;
   }
   .ipad-wrapper .ipad-reverse img {
     margin-bottom: -60px;
     height: 380px;
+    display: none;
   }
 }
 @media (max-width: 576px) {
@@ -1091,7 +1097,7 @@ header menu li:hover {
     padding-top: 80px;
   }
   .features .circle {
-    width: 115px;
+    width: 70px;
     height: 40px;
     border: 2px;
     border-radius: 50%;
@@ -1517,6 +1523,11 @@ body {
   }
   .skills .pie {
     width: 130px;
+  }
+
+  .set-size {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 576px) {
@@ -2092,6 +2103,13 @@ body {
 
   .row-bottom {
     padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .row-upper {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 576px) {
@@ -2639,7 +2657,7 @@ body {
     margin-left: 115px;
   }
   .members .member {
-    width: 250px;
+    width: 230px;
     height: 250px;
     background-color: #8a8a8a;
     margin-right: 10px;
@@ -2651,6 +2669,7 @@ body {
   }
   .members .member .info-members .position {
     padding-top: 10px;
+    display: none;
   }
   .members .member .info-members .email {
     display: flex;
@@ -2687,7 +2706,7 @@ body {
     margin-left: 115px;
   }
   .members .member {
-    width: 225px;
+    width: 165px;
     height: 225px;
     background-color: #8a8a8a;
     margin-right: 10px;
@@ -2735,7 +2754,7 @@ body {
     margin-left: 115px;
   }
   .members .member {
-    width: 175px;
+    width: 130px;
     height: 175px;
     background-color: #8a8a8a;
     margin-right: 5px;
@@ -2994,7 +3013,7 @@ body {
     padding-bottom: 35px;
   }
   .clients .photo-box {
-    width: 225px;
+    width: 135px;
     height: 120px;
     border: 1px solid #333333;
     background-color: #333333;
@@ -3014,8 +3033,8 @@ body {
     width: 80px;
     height: 80px;
     position: absolute;
-    top: 35px;
-    left: 75px;
+    top: 30px;
+    left: 25px;
     padding-bottom: 20px;
   }
   .clients .photo-box img:hover {
@@ -3023,6 +3042,9 @@ body {
   }
   .clients .carousel-indicators {
     bottom: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 992px) {
@@ -3332,10 +3354,11 @@ body {
 }
 .footer-icons {
   background-color: #383838;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .footer-icons .footer-icon-wrapper {
   text-align: center;
-  padding-top: 15px;
 }
 .footer-icons .footer-icon-wrapper img {
   width: 200px;
@@ -3346,16 +3369,29 @@ body {
 }
 
 .buttons-info {
-  padding-top: 40px;
-  margin-right: 15px;
-}
-.buttons-info svg {
   width: 40px;
   height: 40px;
+  border: 2px solid #8a8a8a;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-top: 25px;
+  position: relative;
+}
+.buttons-info:hover {
+  background-color: #00a99d;
+  border: 1px solid #00a99d;
+  border-radius: 10px;
+}
+.buttons-info svg {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 18px;
+  height: 18px;
 }
 
 .buttons-info:last-child {
-  margin: 0;
+  margin-right: 0;
 }
 
 @media (max-width: 1200px) {
@@ -3372,16 +3408,7 @@ body {
   }
 
   .buttons-info {
-    padding-top: 40px;
     margin-right: 15px;
-  }
-  .buttons-info svg {
-    width: 35px;
-    height: 35px;
-  }
-
-  .buttons-info:last-child {
-    margin: 0;
   }
 }
 @media (max-width: 992px) {
@@ -3398,17 +3425,7 @@ body {
   }
 
   .buttons-info {
-    padding-top: 40px;
     margin-right: 15px;
-    padding-bottom: 15px;
-  }
-  .buttons-info svg {
-    width: 30px;
-    height: 30px;
-  }
-
-  .buttons-info:last-child {
-    margin: 0;
   }
 }
 @media (max-width: 768px) {
@@ -3425,17 +3442,7 @@ body {
   }
 
   .buttons-info {
-    padding-top: 40px;
     margin-right: 15px;
-    padding-bottom: 20px;
-  }
-  .buttons-info svg {
-    width: 25px;
-    height: 25px;
-  }
-
-  .buttons-info:last-child {
-    margin: 0;
   }
 }
 .contact-form {
